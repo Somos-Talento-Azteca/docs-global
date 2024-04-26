@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - feat/gh-pages
 
 jobs:
   build-and-deploy:
