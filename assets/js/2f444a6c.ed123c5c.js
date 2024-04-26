@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_global=self.webpackChunkdocs_global||[]).push([[951],{2814:a=>{a.exports=JSON.parse('[{"label":"somos-talento-azteca","permalink":"/docs-global/blog/tags/somos-talento-azteca","count":2}]')}}]);

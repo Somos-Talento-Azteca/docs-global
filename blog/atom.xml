@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://somos-talento-azteca.github.io/docs-global/blog</id>
+    <title>Somos Talento Azteca Blog</title>
+    <updated>2024-04-25T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://somos-talento-azteca.github.io/docs-global/blog"/>
+    <subtitle>Somos Talento Azteca Blog</subtitle>
+    <icon>https://somos-talento-azteca.github.io/docs-global/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Ejemplo]]></title>
+        <id>https://somos-talento-azteca.github.io/docs-global/blog/ejemplo</id>
+        <link href="https://somos-talento-azteca.github.io/docs-global/blog/ejemplo"/>
+        <updated>2024-04-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[¡Hola!]]></summary>
+        <content type="html"><![CDATA[<p>¡Hola!</p>
+<p>Este es un ejemplo de como poder crear una entrada en el blog.</p>]]></content>
+        <author>
+            <name>Somos Talento Azteca</name>
+            <uri>https://github.com/Somos-Talento-Azteca</uri>
+        </author>
+        <category label="somos-talento-azteca" term="somos-talento-azteca"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bienvenido]]></title>
+        <id>https://somos-talento-azteca.github.io/docs-global/blog/bienvenido</id>
+        <link href="https://somos-talento-azteca.github.io/docs-global/blog/bienvenido"/>
+        <updated>2024-04-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[¡Bienvenido!]]></summary>
+        <content type="html"><![CDATA[<p>¡Bienvenido!</p>
+<p>También estaremos usando este método de blog para postear anuncios o noticias sobre este repositorio.</p>]]></content>
+        <author>
+            <name>Somos Talento Azteca</name>
+            <uri>https://github.com/Somos-Talento-Azteca</uri>
+        </author>
+        <category label="somos-talento-azteca" term="somos-talento-azteca"/>
+    </entry>
+</feed>

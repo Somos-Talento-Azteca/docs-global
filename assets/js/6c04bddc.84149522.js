@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_global=self.webpackChunkdocs_global||[]).push([[3515],{2651:o=>{o.exports=JSON.parse('{"permalink":"/docs-global/blog/tags/somos-talento-azteca","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

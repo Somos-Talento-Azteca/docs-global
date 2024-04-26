@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Somos Talento Azteca Blog</title>
+        <link>https://somos-talento-azteca.github.io/docs-global/blog</link>
+        <description>Somos Talento Azteca Blog</description>
+        <lastBuildDate>Thu, 25 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>es</language>
+        <item>
+            <title><![CDATA[Ejemplo]]></title>
+            <link>https://somos-talento-azteca.github.io/docs-global/blog/ejemplo</link>
+            <guid>https://somos-talento-azteca.github.io/docs-global/blog/ejemplo</guid>
+            <pubDate>Thu, 25 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[¡Hola!]]></description>
+            <content:encoded><![CDATA[<p>¡Hola!</p>
+<p>Este es un ejemplo de como poder crear una entrada en el blog.</p>]]></content:encoded>
+            <category>somos-talento-azteca</category>
+        </item>
+        <item>
+            <title><![CDATA[Bienvenido]]></title>
+            <link>https://somos-talento-azteca.github.io/docs-global/blog/bienvenido</link>
+            <guid>https://somos-talento-azteca.github.io/docs-global/blog/bienvenido</guid>
+            <pubDate>Thu, 25 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[¡Bienvenido!]]></description>
+            <content:encoded><![CDATA[<p>¡Bienvenido!</p>
+<p>También estaremos usando este método de blog para postear anuncios o noticias sobre este repositorio.</p>]]></content:encoded>
+            <category>somos-talento-azteca</category>
+        </item>
+    </channel>
+</rss>
