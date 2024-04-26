@@ -31,7 +31,7 @@ jobs:
       uses: actions/upload-pages-artifact@v3
       with:
         name: 'archivos-estaticos'
-        path: '_site'
+        path: 'build'
 
     - name: Desplegar sitio
       uses: JamesIves/github-pages-deploy-action@v4
@@ -40,4 +40,4 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: _site
+        FOLDER: build
