@@ -1,0 +1,43 @@
+name: Desplegar a GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    name: Construir página
+    permissions:
+      contents: write
+
+    steps:
+    - name: Descargar repositorio
+      uses: actions/checkout@v2
+
+    - name: Usar Node.js versión 21.7.3
+      uses: actions/setup-node@v3
+      with:
+        node-version: 21.7.3
+
+    - name: Instalar dependencias
+      run: npm install
+
+    - name: Crear archivos estáticos
+      run: npm run build
+
+    - name: Subir build de la página
+      uses: actions/upload-pages-artifact@v3
+      with:
+        name: 'archivos-estaticos'
+        path: '_site'
+
+    - name: Desplegar sitio
+      uses: JamesIves/github-pages-deploy-action@v4
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: "true"
+      with:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: _site

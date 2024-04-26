@@ -1,0 +1,38 @@
+---
+sidebar_position: 1
+---
+
+# Introducción
+
+En este repositorio se estará mostrando documentación global sobre nuestras ideas y proyectos.
+
+Proyecto hecho con https://docusaurus.io/
+
+---
+
+## Diagramas
+
+En este proyecto se podrán diseñar diagramas desde el mismo archivo de documentación, te muestro un ejemplo:
+
+```mermaid
+---
+title: Diagrama de Ejemplo
+---
+sequenceDiagram
+    participant Alice
+    participant John
+
+    rect rgb(191, 223, 255)
+    note right of Alice: Alice calls John.
+    Alice->>+John: Hello John, how are you?
+    rect rgb(200, 150, 255)
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    end
+    John-->>-Alice: I feel great!
+    end
+    Alice ->>+ John: Did you want to go to the game tonight?
+    John -->>- Alice: Yeah! See you there.
+
+
+```
